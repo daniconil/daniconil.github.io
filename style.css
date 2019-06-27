@@ -39,7 +39,7 @@ ul li {
 
 a { 
 	text-decoration: none;
-	color: #2f2f2f;  
+	color: #970001;  
 }
 
 a:hover,
@@ -343,6 +343,39 @@ button:focus {
 }
 
 
+.mu-btn-enlaces {
+	border: 0px solid #fff;
+    
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 11px 10px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.mu-btn-enlaces:hover,
+.mu-btn-enlaces:focus {
+	background-color: #970001;
+}
+
+.mu-btn-enlaces i {
+	display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.mu-btn-enlaces span {
+	display: block;
+	float: left;
+	line-height: 24px;
+}
+
+
 
 /*--------------------*/
 /* MENU */
@@ -582,7 +615,7 @@ button:focus {
 
 
 #mu-frase {
-	background-image: url("assets/images/castilnovo.JPG");
+	background-image: url("img/castilnovo.JPG");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -754,7 +787,7 @@ button:focus {
 /*--------------------*/
 
 #mu-enlaces {
-	background-image: url("assets/images/atun.JPG");
+	background-image: url("img/atun.JPG");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
