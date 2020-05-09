@@ -15,11 +15,7 @@ html {
 	}
 
 body {  
-    
-
-          font-family: 'CaladeaRegular';  
-
-
+    font-family: 'CaladeaRegular';  
 	font-size: 17px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
@@ -54,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-	    font-family: 'CaladeaRegular'; 
+	font-family: 'CaladeaRegular'; 
 	font-weight: 650;
 	margin-top: 0;
 }
@@ -224,9 +220,17 @@ button:focus {
 	width: 100%;
 }
 
+.mu-titulo-cv {
+	display: inline;
+	float: left;
+	width: 100%;
+	font-size:16px;
+	color:#008000;
+}
+
 .mu-titulo {
 	color: #fff;
-	font-size: 45px;
+	font-size: 22px;
 	display: inline-block;
 	font-weight: 700;
 	margin-top: 35px;
@@ -627,6 +631,7 @@ button:focus {
 .gramsci {
 	color:#FFFFFF;
 	text-align:center;
+	font-size:15px;
 }
 .mu-frase-overlay {
 	display: inline;
@@ -645,6 +650,7 @@ button:focus {
 
 .mu-frase-area h2 {
 	color: #fff;
+	font-size:22px;
 }
 
 .mu-frase-content {
