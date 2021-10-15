@@ -250,7 +250,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 960px) {
 
 			.container {
 				width: 100%;
@@ -587,7 +587,7 @@ input, select, textarea {
 				}
 
 				.row > .col-6-wide {
-					width: 50%;
+					width: 100%;
 				}
 
 				.row > .off-6-wide {
@@ -1481,7 +1481,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 960px) {
 
 			.row {
 				display: flex;
@@ -2220,21 +2220,28 @@ input, select, textarea {
 }
 
 .row-portfolio {
+  display: flex;
+  flex-wrap: wrap;
   margin: 8px -16px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
 .row-portfolio,
 .row-portfolio > .column {
-  padding: 6px;
+  /*padding: 6px;*/
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create two equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 50%;
-  display: none; /* Hide columns by default */
+  display: none;
+  flex: 1 0 100%;
 }
+@media screen and (min-width: 961px) {
+	.column {
+	  flex: 1 0 50%;
+	}
+}
+
 
 /* Clear floats after rows */
 .row-portfolio:after {
@@ -2245,7 +2252,7 @@ input, select, textarea {
 
 /* Content */
 .content {
-  background-color: white;
+ /* background-color: white;*/
   padding: 10px;
 }
 
@@ -2596,7 +2603,7 @@ input, select, textarea {
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 960px) {
 
 		/* Basic */
 
